@@ -1,23 +1,74 @@
-body {
-  background-color: hsl(204, 43%, 93%);
+@media (min-width: 375px) {
+  .container {
+    margin: 18em;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    box-shadow: 5px 10px #c2c1c1;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla", sans-serif;
+  }
+  h1 {
+    color: hsl(179, 62%, 43%);
+  }
+  h2 {
+    color: white;
+    margin-left: 3rem;
+  }
+  ul {
+    list-style: none;
+    color: white;
+  }
+
+  p {
+    color: white;
+    margin-left: 3rem;
+  }
 }
-.container {
-  margin: 200px;
-  box-shadow: inset;
-  border: 1px solid grey;
+.box1,
+.box2,
+.box3 {
+  padding: 25px;
+  margin: auto;
 }
 .box1 {
-  background-color: hsl(218, 22%, 67%);
-  width: 50%;
+  background-color: white;
+  /*width: 50%;*/
 }
 .box2 {
   background-color: hsl(179, 62%, 43%);
-  width: 25%;
+  width: 50%;
+  padding: 0;
 }
 .box3 {
   background-color: hsl(179, 37%, 55%);
-  width: 25%;
+  width: 38%;
 }
 button {
+  color: white;
   background-color: hsl(71, 73%, 54%);
+  border-style: none;
+  margin: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+}
+button:hover {
+  background-color: white;
+  color: hsl(71, 73%, 54%);
+}
+#greyp {
+  color: hsl(218, 22%, 67%);
+}
+#limep {
+  color: hsl(71, 73%, 54%);
+}
+#dollar {
+  font-size: 3rem;
+  color: aliceblue;
+}
+#light {
+  color: rgb(218, 216, 216);
 }
