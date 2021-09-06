@@ -1,0 +1,23 @@
+body {
+  background-color: hsl(204, 43%, 93%);
+}
+.container {
+  margin: 200px;
+  box-shadow: inset;
+  border: 1px solid grey;
+}
+.box1 {
+  background-color: hsl(218, 22%, 67%);
+  width: 50%;
+}
+.box2 {
+  background-color: hsl(179, 62%, 43%);
+  width: 25%;
+}
+.box3 {
+  background-color: hsl(179, 37%, 55%);
+  width: 25%;
+}
+button {
+  background-color: hsl(71, 73%, 54%);
+}
