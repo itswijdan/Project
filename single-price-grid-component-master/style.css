@@ -1,4 +1,8 @@
 @media (min-width: 375px) {
+  flex-wrap: column wrap;
+}
+
+  
   .container {
     margin: 18em;
     border: 1px solid grey;
@@ -31,8 +35,8 @@
 .box1,
 .box2,
 .box3 {
-  padding: 25px;
-  margin: auto;
+  padding: 0;
+  margin: 0;
 }
 .box1 {
   background-color: white;
@@ -40,12 +44,16 @@
 }
 .box2 {
   background-color: hsl(179, 62%, 43%);
-  width: 50%;
+  /*width: 50%;*/
   padding: 0;
+  justify-content: left;
+  flex-basis: 50%;
 }
 .box3 {
   background-color: hsl(179, 37%, 55%);
-  width: 38%;
+  justify-content: right;
+  flex-basis: 50%;
+  /*width: 38%;*/
 }
 button {
   color: white;
